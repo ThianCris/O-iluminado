@@ -1,0 +1,85 @@
+/* Cor do fundo assustadora */
+body {
+    background-color: #ffffff; 
+    color: rgba(255, 0, 0, 0.733); /* Vermelho para o texto */
+    font-family: 'Creepster', cursive;
+    background-image: url('hotel2.png'); 
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    
+  }
+
+  audio {
+  position: fixed;
+  bottom: 10px; 
+  right: 10px; 
+  z-index: 1000; 
+  filter: hue-rotate(180deg) brightness(50%) sepia(80%); 
+  border: 2px solid #ff4444; 
+  border-radius: 5px;
+  background-color: #222; 
+  padding: 5px;
+}
+@keyframes flicker {
+    0%, 50%, 100% {
+      color: rgb(255, 0, 0); /* Cor branca */
+    }
+    25%, 75% {
+      color: rgba(0, 0, 0, 0.63); /* Cor vermelha */
+    }
+  }
+  
+  h2 {
+    animation: flicker 2s infinite; /* Aplica a animação de piscar */
+    text-align: center; /* Centraliza o texto */
+    font-size: 3em; /* Ajusta o tamanho da fonte */
+    text-shadow: 2px 2px 8px #000000; /* Adiciona uma sombra ao texto */
+  }
+
+  
+
+
+  
+  /* Estilo do título principal */
+  h1 {
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 3px 3px 0 #000;
+    color: #fff;
+  }
+  
+  /* Estilo dos quartos */
+  .room {
+    border: 5px solid #800000; /* Cor de sangue */
+    padding: 20px;
+    margin: 10px;
+    background-color: #333; /* Cinza escuro */
+    color: #eee;
+
+  }
+  
+  
+  
+    
+  
+  .top-right-link {
+    animation: flicker 2s infinite; /* Aplica a animação de piscar */
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+   
+    
+    
+}
+
+
+
+
+ 
+      
+  
+  
