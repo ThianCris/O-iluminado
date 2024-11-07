@@ -1,0 +1,72 @@
+<!doctype html> 
+<html lang="pt-br"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Reserva de Hotel</title>
+    <link rel="stylesheet" href="hotel.css">
+    
+</head>
+<body>
+    <h2>Overlook Hotel</h2> 
+
+
+
+    
+    <form action="/enviar-reserva" method="POST">
+      
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+        
+        
+        <label for="sexo">Sexo:</label><br>
+        <input type="radio" id="masculino" name="sexo" value="Masculino" required>
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="feminino" name="sexo" value="Feminino">
+        <label for="feminino">Feminino</label><br><br>
+        <input type="radio" id="outro" name="sexo" value="outro" required>
+        <label for="Outro">Outro</label><br>
+        <br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <br>
+        
+        <label for="data_chegada">Data de Chegada:</label><br>
+        <input type="date" id="data_chegada" name="data_chegada" required><br><br>
+        <br>
+        
+        
+        <label for="noites">Número de Noites:</label><br>
+        <input type="number" id="noites" name="noites" min="1" required><br><br>
+        
+        
+        <label for="hospedes">Número de Hóspedes:</label><br>
+        <input type="number" id="hospedes" name="hospedes" min="1" required><br><br>
+        
+        <label for="total">Total Estimado (R$):</label><br>
+        <input type="number" id="total" name="total" step="0.01" required><br><br>
+        
+        
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+        
+        
+        <input type="checkbox" id="newsletter" name="newsletter" value="Sim">
+        <label for="newsletter">Gostaria de receber nossa newsletter?</label><br><br>
+        
+        
+        <input type="submit" value="Enviar">
+    </form>
+    <a href="https://vplus.bio/hoteliluminado/login/" target="_blank"  class="top-right-link">Crie sua conta</a>
+
+    
+    <audio controls autoplay>
+        <source src="Promise_Reprise.mp3" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    
+
+</body>
+</html>
