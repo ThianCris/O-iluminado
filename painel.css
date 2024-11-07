@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('illuminado.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-color: #410303; /* Cor de fundo preta como fallback */
+    color: #cc0909; /* Cor do texto em branco */
+    font-family: 'Creepster', cursive; /* Fonte temática */
+  }
+  
+
+  
+  
+  
+  
+  

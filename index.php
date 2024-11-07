@@ -44,7 +44,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <!-- Inclusão do arquivo CSS -->
-    <link rel="stylesheet" href="Formulario.css"> <!-- Verifique se o arquivo CSS está no mesmo diretório -->
+    <link rel="stylesheet" href="Formulario.css"> 
 </head>
 <body>
     <div class="container">
@@ -65,7 +65,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
             <button type="submit">Entrar</button>
         </form>
         <?php
-            echo "<p>Depois do seu Login não tem volta!</p>";
+            echo "<p>Depois do seu login não tem volta</p>";
         ?>
     </div>
 </body>
